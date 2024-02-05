@@ -2,9 +2,16 @@
     border: 1px dotted blue;
 }
 
-.image-card { /*image and divs*/
+.card { /*card and all divs*/
+
+    background-color: rgb(188, 206, 218);
+    background-color: rgb(216, 178, 102);
+
     /*room at top of page*/
+    
     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 
     /* content from border*/
     padding: 20px;
@@ -12,7 +19,8 @@
     /*responsive*/
     display: flexbox;
 
-    
+    justify-content: flex-start;
+
 }
 
 .avatar { /*astronaut logo*/
@@ -21,15 +29,16 @@
     width: 50%;
 
     /*surrounds astronaut*/
-    border: 5px solid rgb(86, 192, 86);
+    border: 5px solid rgb(69, 95, 175);
 
-
-
+    display: flex;
 }
 
 .italic {
         font-style: italic;
 
-    /*applied to: 
-    location*/
+    /*
+    applied to: 
+    location         
+    */
 }
