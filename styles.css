@@ -51,14 +51,27 @@ body {
     width: 30 px;
     border-width: 10px;
 
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(148, 237, 227);
  
 }
 
-.clickbutts {
+.clickbutts { /* forgive the humor */
 
     padding: 5%;
     padding-top: 20px;
     padding-bottom: 10px;
+} 
+
+button {
+    color: #0f1419;
+    border: 3px solid #cfd9de;
+    border-radius: 20px;
+    background: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: lighter;
+
 
 }
