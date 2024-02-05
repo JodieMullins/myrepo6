@@ -1,77 +1,35 @@
-
-
-.introduction { /* body div, text */
-    margin-top: 75px;        /* From 0px and upwards   */
+.border-blue {
+    border: 1px dotted blue;
 }
 
-body {
-    background: rgb(84, 162, 111);     /* red, blue, yellow, etc */
-    color: rgb(116, 218, 232);             /* red, blue, yellow, etc */
-    font-size: 15px;        /* 0px - 100px and beyond */
-    font-weight: bold;   /* lighter, normal, bold  */
-    text-align: center;      /* left, center or right  */ 
+.image-card { /*image and divs*/
+    /*room at top of page*/
+    margin-top: 20px;
+
+    /* content from border*/
+    padding: 20px;
+
+    /*responsive*/
+    display: flexbox;
+
+    
 }
 
-.giantface {  /* description: gradient sky overlayed with atomic cloud sized sharp toothed giant face in blue hues with green pupils overlooking bright blue orb on the ground with an astronaut form seemingly walking away from scene */
-/* round edges */    
-    border-radius: 20%;
+.avatar { /*astronaut logo*/
 
-    padding-top: 50px;
-    padding-bottom: 2px;
-
-/* center image */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    /* prevent taking up whole page*/
     width: 50%;
-  
-/* responsive */
-    max-width: 100%;
-    height: auto;
+
+    /*surrounds astronaut*/
+    border: 5px solid rgb(86, 192, 86);
 
 
-/* opacity ( 1= default, .5) */
-    opacity: 1;
 
-    display:block
 }
 
+.italic {
+        font-style: italic;
 
-.boxes { /* input box div -- contains div with buttons*/
-
-    /* make room at bottom of box */
-    margin-bottom: 50px;
-
-    padding: 10px;
-}
-
-.searchinput { /* user's input box */
-    border-top: 1%;
-   
-    width: 30 px;
-    border-width: 10px;
-
-    background-color: rgb(148, 237, 227);
- 
-}
-
-.clickbutts { /* forgive the humor */
-
-    padding: 5%;
-    padding-top: 20px;
-    padding-bottom: 10px;
-} 
-
-button {
-    color: #0f1419;
-    border: 3px solid #cfd9de;
-    border-radius: 20px;
-    background: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-weight: lighter;
-
-
+    /*applied to: 
+    location*/
 }
