@@ -1,38 +1,87 @@
 .border-blue {
-    border: 1px dotted blue;
+    border: 1px dotted #2a9d8f;
+    border-radius: 10%;
+    background-color: #e76f51;
 }
 
+
+
+
+.card {
+    width: 400px;
+    margin: auto auto;
+    padding: 20px;
+    display: flexbox;
+    justify-content: space-around;
+    text-align: center;
+    background: #f4a261 ;
+    color: #192750;
+    border-top: 3px solid #192750;
+    border-bottom: 6px solid rgb(25, 39, 80);
+    border-radius: 20%;
+    
+    
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+
+
+
+
+
+/*
 .card { /*card and all divs*/
 
+    /*
     background-color: rgb(188, 206, 218);
     background-color: rgb(216, 178, 102);
-
-    /*room at top of page*/
+    */
+/*
+    width: 400px;
     
-    margin-top: 20px;
+    
+    /*room at top of page*/
+/*    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
 
     /* content from border*/
-    padding: 20px;
-
+ /*   padding: 20px;
+/*
     /*responsive*/
-    display: flexbox;
+/*    display: flexbox;
 
-    justify-content: flex-start;
+    justify-content: center;
+/*
+    /*font color*/
+/*    color: rgb(38, 44, 44);
+*/
 
-}
+
+
+
+
 
 .avatar { /*astronaut logo*/
 
     /* prevent taking up whole page*/
-    width: 50%;
+    width: 40%;
 
     /*surrounds astronaut*/
-    border: 5px solid rgb(69, 95, 175);
+    border: 5px solid rgb(25, 39, 80);
 
-    display: flex;
+    /* centered astro */
+    display: flex center;
+
+    opacity: .92;
 }
+
+
+
+
+
 
 .italic {
         font-style: italic;
