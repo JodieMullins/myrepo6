@@ -1,7 +1,7 @@
 .border-blue {
-    border: 1px dotted #2a9d8f;
+    border: 1px dotted #4a4e69;
     border-radius: 10%;
-    background-color: #e76f51;
+    background-color: #c9ada7
 }
 
 
@@ -14,17 +14,18 @@
     display: flexbox;
     justify-content: space-around;
     text-align: center;
-    background: #f4a261 ;
-    color: #192750;
+    background: #9a8c98 ;
+    color: #f2e9e4;
+
     border-top: 3px solid #192750;
     border-bottom: 6px solid rgb(25, 39, 80);
     border-radius: 20%;
     
     
-
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 
@@ -71,6 +72,8 @@
 
     /*surrounds astronaut*/
     border: 5px solid rgb(25, 39, 80);
+
+    box-shadow: #2a9d8f -2px 1px 50px 1px;
 
     /* centered astro */
     display: flex center;
